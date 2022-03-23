@@ -9,8 +9,8 @@ describe('Testes do componente Pokemon', () => {
     renderWithRouter(<App />);
     const pokemonName = screen.getByTestId('pokemon-name');
     expect(pokemonName).toHaveTextContent('Pikachu');
-    const pokemontype = screen.getByTestId('pokemon-type');
-    expect(pokemontype).toHaveTextContent('Electric');
+    const pokemonType = screen.getByTestId('pokemon-type');
+    expect(pokemonType).toHaveTextContent('Electric');
     const pokemonWeight = screen.getByTestId('pokemon-weight');
     expect(pokemonWeight).toHaveTextContent('Average weight: 6.0 kg');
     const pokemonImage = screen.getByRole('img', { name: /pikachu sprite/i });
