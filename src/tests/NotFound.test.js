@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
 import NotFound from '../components/NotFound';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from './renderWithRouter';
 
 describe('Testes do componente NotFound', () => {
   test('Verifica se a pagina contem h2', () => {

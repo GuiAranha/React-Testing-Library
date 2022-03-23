@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import FavoritePokemons from '../components/FavoritePokemons';
 import App from '../App';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from './renderWithRouter';
 
 describe('Testes do componente FavoritePokemons', () => {
   test('Verifica se possui texto de No favorite pokemon found', () => {
