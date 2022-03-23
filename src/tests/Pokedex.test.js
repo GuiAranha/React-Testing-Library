@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from '../services/renderWithRouter';
 
-describe('Testes do componente NotFound', () => {
+describe('Testes do componente Pokedex', () => {
   test('Verifica se a pagina contem h2', () => {
     renderWithRouter(<App />);
     const heading = screen.getByRole('heading', { name: /encountered pokémons/i });
