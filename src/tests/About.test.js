@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
 import About from '../components/About';
-import renderWithRouter from './renderWithRouter';
+import renderWithRouter from './helpers/renderWithRouter';
 
 describe('Testes do componente About', () => {
   test('Verifica se a pagina contem h2', () => {
